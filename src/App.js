@@ -21,7 +21,7 @@ function App() {
         >
           Learn React
         </a>
-        <p>Builad at {dateTimeStamp}</p>
+        <p>Build at {dateTimeStamp}</p>
       </header>
     </div>
   );
