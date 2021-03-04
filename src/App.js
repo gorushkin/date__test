@@ -1,5 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import preval from 'preval.macro'
+
+console.log(process.env);
+console.log(process.env);
+const dateTimeStamp = preval`module.exports = new Date().toLocaleString();`
+console.log('dateTimeStamp: ', dateTimeStamp);
+
+
 
 function App() {
   return (
